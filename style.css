@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: rgba(217, 211, 211, 0.359);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 150px;
+  padding-left: 190px;
+  height: 70px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav ul:first-child {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin-right: auto;
+  gap: 25px;
+}
+
+.search {
+  position: relative;
+  flex: 1;
+  max-width: 400px;
+  margin: 0 20px;
+}
+
+.search i {
+  position: absolute;
+  top: 50%;
+  padding-left: 1px;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #666;
+}
+
+.logo {
+  height: 64px;
+  margin-top: 8px;
+  padding-right: 30px;
+}
+
+input {
+  width: 350px;
+  height: 40px;
+  margin-left: -260px;
+  padding: 0 9px 0 70px;
+  border-radius: 4px;
+  background-color: #e1e0e0;
+  border: 0.5px solid #e1e0e0;
+  box-shadow: 1px 2px 8px rgba(130, 119, 119, 0.821);
+}
+
+nav input[type="search"] {
+  padding-left: 15px;
+}
+
+nav ul:last-child {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin-left: auto;
+  gap: -10px;
+}
+
+nav ul li a {
+  font-size: 17px;
+  color: #A8A5A5;
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 3px;
+}
+
+nav ul li a:hover {
+  color: #B33333;
+}
+
+.bi-list {
+  font-size: 33px;
+  padding-left: 29px;
+  border-radius: 20px;
+  color: #000;
+}
+
+.chatgpt a {
+  color: #009EE3;
+  padding-right: 40px;
+}
+
+.shaxsiy a {
+  color: #D32F2F;
+  padding-right: 7px;
+}
+
+.nom {
+  text-align: start;
+  color: #222;
+  margin-top: 35px;
+  padding-left: 261px;
+}
+
+.card1container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 1100px;
+  margin: auto;
+  padding: 40px;
+}
+
+.card {
+  width: 186px;
+  height: 210px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10px 10px 10px;
+  box-sizing: border-box;
+  border: solid 0.6px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.isim {
+  margin-top: 35px;
+  font-size: 14px;
+  text-align: center;
+  color: #000;
+  text-transform: uppercase;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+.nima {
+  font-size: 13px;
+  color: #888;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  text-align: center;
+  line-height: 1.3;
+}
+
+.bahochala {
+  font-size: 18px;
+  margin-top: 5px;
+}
